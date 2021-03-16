@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>实时更新：新冠肺炎疫情最新动态</title>
+</head>
+<body>
+    <div id="title">
+        <span class="time"></span>
+        全国疫情的实时监控
+    </div>
+    <div id="left1"></div>
+    <div id="left2"></div>
+    <div id="center1">
+        <div class="item">
+            <div class="number" id="confirm"></div>
+            <div class="text">累计确诊</div>
+        </div>
+        <div class="item">
+            <div class="number" id="heal"></div>
+            <div class="text">累计治愈</div>
+        </div>
+        <div class="item">
+            <div class="number" id="dead"></div>
+            <div class="text">累计死亡</div>
+        </div>
+        <div class="item">
+            <div class="number" id="nowConfirm"></div>
+            <div class="text">现有确诊</div>
+        </div>
+        <div class="item">
+            <div class="number" id="noInfect"></div>
+            <div class="text">无症状感染者</div>
+        </div>
+        <div class="item">
+            <div class="number" id="importedCase"></div>
+            <div class="text">境外输入</div>
+        </div>
+    </div>
+    <div id="center2"></div>
+    <div id="right1"></div>
+    <div id="right2"></div>
+
+    <script src="js/echarts.min.js"></script>
+    <script src="js/china.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
